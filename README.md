@@ -50,6 +50,10 @@ Este comando utilizará o Vagrantfile fornecido para criar as máquinas virtuais
   - O script `master.sh` é executado apenas na máquina master, iniciando o Swarm e gerando o token de join para workers.
   - O script `worker.sh` é executado nas máquinas node01, node02 e node03, juntando-as ao cluster Swarm como workers.
 
+## Resultado do Cluster
+
+![Resultado do Cluster](img/sh.png)
+
 ## Notas Adicionais
 
 - Certifique-se de que os pré-requisitos estão instalados antes de executar o Vagrant.
